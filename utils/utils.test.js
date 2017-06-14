@@ -1,3 +1,5 @@
+//npm test or nodemon --exec 'npm test' or npm run test-watch
+
 const utils = require('./utils')
 
 it ('Should add two numbers', () => {
@@ -12,4 +14,4 @@ it ('Should square a number', () => {
   if (res !== 400){
     throw new Error(`Expected 400, but got ${res}.`);
   }
-})
+});
